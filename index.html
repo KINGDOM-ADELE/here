@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics Example</title>
+    <style>
+        /* Add some basic styles for better readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.5;
+        }
+
+
+        /* code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        } */
+
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #333;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .presentation {
+            font-weight: bold;
+            font-style: italic;
+        }
+        .semantic {
+            /* Equivalent to bold */
+            /* font-weight: 700;  */
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the HTML Basics Example</h1>
+
+    <p>This article demonstrates the use of various HTML basic and formatting tags:<br> 
+    The little styling applied here is just to highlight the concepts behind the tags/elements and their usage<br>
+    </p>
+
+    <p>
+        <img src="image.jpg" alt="your photo here">
+        <br>
+        My name is &lt;yourname&gt;
+    I also want to use this medium to invite you to come join me and a lot other great minds 
+    at <br /> <a href="https://www.m-rinternational.com/">M-R International</a> and learn skills that can make you more relevant tomorrow. 
+    </p>
+
+    <ul>
+        <li><strong>Text Styling:</strong> <em>italic</em>, <b>bold</b>, <u>underline</u></li>
+        <li><strong>Headings:</strong> <h2>Heading 2</h2></li>
+        <li><strong>Paragraphs:</strong> <p>This is a paragraph.</p></li>
+        <li><strong>Lists:</strong>
+            <ul>
+                <li>Unordered List Item 1</li>
+                <li>Unordered List Item 2</li>
+            </ul>
+            <ol>
+                <li>Ordered List Item 1</li>
+                <li>Ordered List Item 2</li>
+            </ol>
+        </li>
+        <li><strong>Links:</strong> <a href="https://www.m-rinternational.com/">M-R International</a></li>
+        <li><strong>Images:</strong> <img src="image.jpg" alt="An example image"></li>
+        <li><strong>Formatting:</strong> <code>inline code</code>, <pre>preformatted text</pre></li>
+        <li><strong>Quotes:</strong> Blockquote: <blockquote>This is a blockquote.</blockquote></li>
+
+        <p>
+            <h3>The &lt;abbr&gt; tag: </h3>
+            The <abbr title="World Health Organization">WHO</abbr> is important.
+        </p>
+        
+        <p>
+            <h3>The &lt;cite&gt; tag: </h3>
+            The book "<cite>HTML & CSS</cite>" is a great resource.
+        </p>
+
+        <p>
+            <h3>The &lt;small&gt; tag: </h3>
+            This is <small>small</small> text.
+        </p>
+
+        <h2>Strong vs. Bold, Emphasis vs. Italics</h2>
+
+        <p>
+            <strong>Strong:</strong> The <strong>strong</strong> element is used to indicate strong importance. It is typically displayed as <strong>bold</strong> text.
+        </p>
+    
+        <p class="presentation">
+            <b>Bold:</b> The <b>bold</b> element is a presentational tag used to make text bold. However, it doesn't convey any specific meaning.
+        </p>
+    
+        <p>
+            <em>Emphasis:</em> The <em>emphasis</em> element is used to indicate emphasis. It is typically displayed as <em>italic</em> text.
+        </p>
+    
+        <p class="presentation">
+            <i>Italics:</i> The <i>italics</i> element is a presentational tag used to make text italic. Similar to bold, it doesn't convey specific meaning.
+        </p>
+    
+        <p class="semantic">
+            <strong>Semantic Strong:</strong> The <strong>strong</strong> element can be used for semantic emphasis, conveying strong importance.
+        </p>
+    
+        <p class="semantic">
+            <em>Semantic Emphasis:</em> The <em>emphasis</em> element can be used for semantic emphasis, conveying emphasis.
+        </p>
+
+    </ul>
+
+    <h2>Using <code>&lt;pre&gt;</code> </h2>
+    <pre>
+        This is preformatted text.
+        It preserves line    breaks and spaces.
+    </pre>
+    
+    <h2>Using <code>&lt;code&gt;</code> for Inline Code</h2>
+
+    <p>
+        In programming, you often use the <code>console.log()</code> function to output messages to the console.
+        Here's an example in JavaScript:
+    </p>
+
+    <h2>Using <code>&lt;code&gt;</code> chained with <code>&lt;pre&gt;</code></h2>
+    <pre><code>
+        function greet(name) {
+            console.log('Hello, ' + name + '!');
+        }
+
+        greet('World');
+    </code></pre>
+
+    <h4>Using <code>&lt;code&gt;</code> without <code>&lt;pre&gt;</code></h4>
+    <code>
+        function greet(name) {
+            console.log('Hello, ' + name + '!');
+        }
+
+        greet('World');
+    </code>
+
+    <p>
+        The <code>greet</code> function takes a <code>name</code> parameter and logs a greeting message to the console.
+        Feel free to explore more with inline code in your HTML content!
+    </p>
+    
+
+
+    <h4>Using <code>&lt;blockquote&gt;</code> for Blockquotes</h4>
+
+    <p>
+        In literature, a blockquote is used to set off a lengthy quotation. Here's an example:
+    </p>
+
+    <blockquote>
+        <p>This is a blockquote. It allows you to emphasize or set apart a section of text that is a quotation from another source.</p>
+        <cite>Anonymous</cite>
+    </blockquote>
+
+    <p>
+        Blockquotes often include a citation or the author's name to give credit to the source.
+    </p>
+
+    <h2>Using Descriptive List in HTML</h2>
+
+    <p>
+        A descriptive list is used to define terms and provide descriptions for those terms. Here's an example:
+    </p>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications.</dd>
+
+        <dt>CSS</dt>
+        <dd>Stands for Cascading Style Sheets. It is a style sheet language used for describing the look and formatting of a document written in HTML.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language that enables interactive web pages. It is often used for client-side scripting.</dd>
+    </dl>
+
+    <p>
+        Descriptive lists are useful for presenting information where each term is associated with a corresponding description.
+    </p>
+
+    <h2>Using <code>&lt;del&gt;</code> and <code>&lt;mark&gt;</code> Tags</h2>
+
+    <p>
+        The <del>deleted text</del> element is used to represent text that has been deleted. It is often displayed with a strikethrough.
+    </p>
+
+    <p>
+        The <mark>highlighted text</mark> element is used to represent text that has been marked or highlighted for reference or emphasis.
+    </p>
+
+    <p>
+        Here's an example of using both elements together:
+        <del>This is some old text</del> that has been replaced with <mark>new text</mark>.
+    </p>
+
+    <h3>Discount Example</h3>
+
+    <p>
+        Hurry up! This offer is valid for a limited time. The regular price was <del>$150.00</del>, but now you can get it for <mark>$120.00</mark>.
+    </p>
+
+    <h2>Using <code>&lt;s&gt;</code> vrs <code>&lt;del&gt;</code> Elements</h2>
+
+    <p>
+        The &lt;s&gt; <s>strikethrough text</s> element is used for text that is no longer accurate or relevant. It is often used for stylistic purposes.
+    </p>
+
+    <p>
+        The &lt;del&gt; <del>deleted text</del> element is used to represent text that has been removed or deleted. It carries a stronger semantic meaning.
+    </p>
+
+    <br>
+    <br>
+    
+        <!-- Tables -->
+        <h2>Using HTML Table</h2>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+    
+        
+        <br>
+        <br>
+        
+        <!-- Forms -->
+        <h2>Using HTML Form</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <input type="submit" value="Submit">
+        </form>
+
+        <br>
+        <br>
+
+        <!-- Multimedia -->
+        <h2>Using HTML Image Tag</h2>
+
+        <h3>IMAGES</h3>
+        <img src="animal.jpg" height="180" width="300" alt="computer image">    
+        <br>
+        <img src="https://www.animal.jpg" height="180" width="300" alt="animal image">
+        <br>
+        <h3>IMAGES AS LINKS</h3>
+        <p>Click on the image to view full size</p>
+        <a href="IMAGES2/myhtml-Form.jpg" height="100" width="100">
+            <img src="IMAGES2/myhtml-Form.jpg" height="180" width="300" alt="animal image">
+        </a>
+        <p>We use the image as a link value and we linked to the file location of the image</p>
+        <br>
+    
+        <p>Click on the image to go to another page</p>
+        <a href="https://www.m-rinternational.com/" height="100" width="100">
+            <img src="IMAGES2/formimage.png" height="180" width="300" alt="animal image">
+        </a>
+        <p>We use the image as a link value and we linked to MRsoft official website</p>
+        <br>
+
+        <h2>Using HTML Audio Tag</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <br>
+        <br>
+
+        <h2>Using HTML Video Tag</h2>
+        <video controls width="400">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+  
+
+        <p style="color: #6e84850e;">This is green text.</p>
+    <p>Thank you for staying with me.</p>
+
+</body>
+</html>
